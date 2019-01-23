@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "lib",
+        "declaration": true,
+        "jsx": "react",
+        "noImplicitThis": false,
+        "removeComments": false,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "pretty": true,
+        "lib": [
+            "dom",
+            "es5",
+            "scripthost",
+            "es2015",
+            "es2015.promise",
+            "es2015.core",
+            "es2015.collection"
+        ]
+    },
+    "exclude": [
+        "out",
+        "node_modules"
+    ]
+}
